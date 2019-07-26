@@ -4,31 +4,27 @@
       "description": "",
       "id": "poptrend",
       "name": "Population trend",
-      "categories": [
-        {
-          "domains": [
-            "pop"
-          ],
-          "sdg": [
-            "01", "05"
-          ]
-        }
-      ]
+      "categories": {
+        "domains": [
+          "pop-dem"
+        ],
+        "sdg": [
+          "01", "05"
+        ]
+      }
     },
     {
       "description": "",
       "id": "popdensity",
       "name": "Population density",
-      "categories": [
-        {
-          "domains": [
-            "pop"
-          ],
-          "sdg": [
-            "01", "05"
-          ]
-        }
-      ]
+      "categories": {
+        "domains": [
+          "pop-dem"
+        ],
+        "sdg": [
+          "01", "05"
+        ]
+      }
     }
   ],
   "domains": [
