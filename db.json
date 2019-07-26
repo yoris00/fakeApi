@@ -1,15 +1,26 @@
 {
   "indicators": [
     {
+      "description": "",
       "id": "poptrend",
       "name": "Population trend"
     },
     {
+      "description": "",
       "id": "popdensity",
       "name": "Population density"
     }
   ],
-  "domains": {
-    "name": "Population"
-  }
+  "domains": [
+    {
+      "id": "pop",
+      "name": "Population",
+      "children": [
+        {
+          "id": "pop-dem",
+          "name": "Demography"
+        }
+      ]
+    }
+  ]
 }
