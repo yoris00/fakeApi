@@ -1,43 +1,61 @@
 {
   "indicators": [
     {
-      "description": "",
-      "id": "poptrend",
-      "name": "Population trend",
-      "categories": {
-        "domains": [
-          "pop-dem"
-        ],
-        "sdg": [
-          "01", "05"
-        ]
-      }
-    },
-    {
-      "description": "",
-      "id": "popdensity",
-      "name": "Population density",
-      "categories": {
-        "domains": [
-          "pop-dem"
-        ],
-        "sdg": [
-          "01", "06"
-        ]
-      }
-    },
-    {
-      "description": "",
-      "id": "poptest",
-      "name": "Population test",
-      "categories": {
-        "domains": [
-          "pop-mig"
-        ],
-        "sdg": [
-          "01", "05"
-        ]
-      }
+      "id": "pop",
+      "name": "Population",
+      "children": [
+        {
+          "id": "pop-dem",
+          "name": "Demography",
+          "indicators": [
+            {
+              "description": "",
+              "id": "poptrend",
+              "name": "Population trend",
+              "categories": {
+                "domains": [
+                  "pop-dem"
+                ],
+                "sdg": [
+                  "01", "05"
+                ]
+              }
+            },
+            {
+              "description": "",
+              "id": "popdensity",
+              "name": "Population density",
+              "categories": {
+                "domains": [
+                  "pop-dem"
+                ],
+                "sdg": [
+                  "01", "06"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "pop-mig",
+          "name": "Migration",
+          "indicators": [
+            {
+              "description": "",
+              "id": "poptest",
+              "name": "Population test",
+              "categories": {
+                "domains": [
+                  "pop-mig"
+                ],
+                "sdg": [
+                  "01", "05"
+                ]
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
   "domains": [
