@@ -25,6 +25,19 @@
           "01", "05"
         ]
       }
+    },
+    {
+      "description": "",
+      "id": "poptest",
+      "name": "Population test",
+      "categories": {
+        "domains": [
+          "pop-dem"
+        ],
+        "sdg": [
+          "01", "05"
+        ]
+      }
     }
   ],
   "domains": [
