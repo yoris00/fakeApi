@@ -1,0 +1,15 @@
+{
+  "indicators": [
+    {
+      "id": "poptrend",
+      "name": "Population trend"
+    },
+    {
+      "id": "popdensity",
+      "name": "Population density"
+    }
+  ],
+  "domains": {
+    "name": "Population"
+  }
+}
