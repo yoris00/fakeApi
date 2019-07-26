@@ -7,7 +7,7 @@
         {
           "id": "pop-dem",
           "name": "Demography",
-          "indicators": [
+          "children": [
             {
               "description": "",
               "id": "poptrend",
@@ -39,7 +39,7 @@
         {
           "id": "pop-mig",
           "name": "Migration",
-          "indicators": [
+          "children": [
             {
               "description": "",
               "id": "poptest",
