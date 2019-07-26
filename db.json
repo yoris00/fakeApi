@@ -3,12 +3,14 @@
     {
       "description": "",
       "id": "poptrend",
-      "name": "Population trend"
+      "name": "Population trend",
+      "domain": "pop-dem"
     },
     {
       "description": "",
       "id": "popdensity",
-      "name": "Population density"
+      "name": "Population density",
+      "domain": "pop-dem"
     }
   ],
   "domains": [
