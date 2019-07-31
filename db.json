@@ -10,7 +10,7 @@
           "children": [
             {
               "description": "",
-              "id": "poptrend",
+              "id": "pop",
               "name": "Population trend",
               "categories": {
                 "domains": [
@@ -23,7 +23,7 @@
             },
             {
               "description": "",
-              "id": "popdensity",
+              "id": "popden",
               "name": "Population density",
               "categories": {
                 "domains": [
