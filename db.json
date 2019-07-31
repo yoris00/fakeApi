@@ -1,6 +1,7 @@
 {
   "indicators": [
     {
+      "aggSet": "",
       "description": "",
       "id": "pop",
       "name": "Population trend",
@@ -14,6 +15,7 @@
       }
     },
     {
+      "aggSet": "",
       "description": "",
       "id": "popden",
       "name": "Population density",
