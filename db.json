@@ -41,30 +41,12 @@
           "name": "Demography",
           "children": [
             {
-              "description": "",
               "id": "pop",
-              "name": "Population trend",
-              "categories": {
-                "domains": [
-                  "01.01"
-                ],
-                "sdg": [
-                  "01", "05"
-                ]
-              }
+              "name": "Population trend"
             },
             {
-              "description": "",
               "id": "popden",
-              "name": "Population density",
-              "categories": {
-                "domains": [
-                  "01.01"
-                ],
-                "sdg": [
-                  "01", "06"
-                ]
-              }
+              "name": "Population density"
             }
           ]
         },
@@ -73,17 +55,8 @@
           "name": "Migration",
           "children": [
             {
-              "description": "",
               "id": "poptest",
-              "name": "Population test",
-              "categories": {
-                "domains": [
-                  "01-02"
-                ],
-                "sdg": [
-                  "01", "05"
-                ]
-              }
+              "name": "Population test"
             }
           ]
         }
