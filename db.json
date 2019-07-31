@@ -5,6 +5,7 @@
       "description": "",
       "id": "pop",
       "name": "Population trend",
+      "metadata": "",
       "categories": {
         "domains": [
           "01.01"
@@ -18,6 +19,7 @@
       "aggSet": "",
       "description": "",
       "id": "popden",
+      "metadata": "",
       "name": "Population density",
       "categories": {
         "domains": [
