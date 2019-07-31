@@ -58,6 +58,65 @@
       ]
     }
   ],
+  "indicatorsByDomain": [
+    {
+      "id": "01",
+      "name": "Population",
+      "children": [
+        {
+          "id": "01.01",
+          "name": "Demography",
+          "children": [
+            {
+              "description": "",
+              "id": "pop",
+              "name": "Population trend",
+              "categories": {
+                "domains": [
+                  "01.01"
+                ],
+                "sdg": [
+                  "01", "05"
+                ]
+              }
+            },
+            {
+              "description": "",
+              "id": "popden",
+              "name": "Population density",
+              "categories": {
+                "domains": [
+                  "01.01"
+                ],
+                "sdg": [
+                  "01", "06"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "01-02",
+          "name": "Migration",
+          "children": [
+            {
+              "description": "",
+              "id": "poptest",
+              "name": "Population test",
+              "categories": {
+                "domains": [
+                  "01-02"
+                ],
+                "sdg": [
+                  "01", "05"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "domains": [
     {
       "id": "01",
