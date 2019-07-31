@@ -1,11 +1,11 @@
 {
   "indicators": [
     {
-      "id": "pop",
+      "id": "01",
       "name": "Population",
       "children": [
         {
-          "id": "pop-dem",
+          "id": "01.01",
           "name": "Demography",
           "children": [
             {
@@ -14,7 +14,7 @@
               "name": "Population trend",
               "categories": {
                 "domains": [
-                  "pop-dem"
+                  "01.01"
                 ],
                 "sdg": [
                   "01", "05"
@@ -27,7 +27,7 @@
               "name": "Population density",
               "categories": {
                 "domains": [
-                  "pop-dem"
+                  "01.01"
                 ],
                 "sdg": [
                   "01", "06"
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "id": "pop-mig",
+          "id": "01-02",
           "name": "Migration",
           "children": [
             {
@@ -46,7 +46,7 @@
               "name": "Population test",
               "categories": {
                 "domains": [
-                  "pop-mig"
+                  "01-02"
                 ],
                 "sdg": [
                   "01", "05"
@@ -60,11 +60,11 @@
   ],
   "domains": [
     {
-      "id": "pop",
+      "id": "01",
       "name": "Population",
       "children": [
         {
-          "id": "pop-dem",
+          "id": "01.01",
           "name": "Demography"
         }
       ]
