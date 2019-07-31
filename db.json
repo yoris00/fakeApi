@@ -1,11 +1,9 @@
 {
   "indicators": [
     {
-      "aggSet": "",
       "description": "",
       "id": "pop",
       "name": "Population trend",
-      "metadata": "",
       "categories": {
         "domains": [
           "01.01"
@@ -13,22 +11,76 @@
         "sdg": [
           "01", "05"
         ]
-      }
+      },
+      "contexts": [
+        "default",
+        "all"
+      ],
+      "datasets": [
+        {
+          "id": "luisa_pop_2015",
+          "name": "Luisa serie",
+          "description": ""
+        },
+        {
+          "id": "eurostat_pop_2015?sex=t&age=t",
+          "name": "Eurostat serie",
+          "description": ""
+        }
+      ]
     },
     {
-      "aggSet": "",
       "description": "",
-      "id": "popden",
-      "metadata": "",
-      "name": "Population density",
+      "id": "pop_history",
+      "name": "Population history",
       "categories": {
         "domains": [
           "01.01"
         ],
         "sdg": [
-          "01", "06"
+          "01", "05"
         ]
-      }
+      },
+      "contexts": [
+        "default",
+        "all"
+      ],
+      "datasets": [
+        {
+          "id": "eurostat_pop_2015?sex=t&age=t",
+          "name": "",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "popbysex",
+      "name": "Population by gender",
+      "categories": {
+        "domains": [
+          "01.01"
+        ],
+        "sdg": [
+          "01", "05"
+        ]
+      },
+      "contexts": [
+        "default",
+        "all"
+      ],
+      "datasets": [
+        { 
+          "id": "eurostat_pop_2015?sex=m&age=t",
+          "name": "Pop by Male",
+          "description": ""
+        },
+        { 
+          "id": "eurostat_pop_2015?sex=f&age=t",
+          "name": "Pop by Female",
+          "description": ""
+        }
+      ]
     }
   ],
   "indicatorsByDomain": [
