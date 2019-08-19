@@ -118,6 +118,10 @@
   "domains": [
     {
       "id": "01",
+      "description": [
+        "Corto",
+        "Lungo"
+      ],
       "name": "Population",
       "children": [
         {
