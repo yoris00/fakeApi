@@ -1,7 +1,7 @@
 {
   "indicators": [
     {
-      "description": "",
+      "description": "Descrizione popolazione Trend",
       "id": "pop",
       "name": "Population trend",
       "categories": {
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "description": "",
+      "description": "Descrizione popolazione storica",
       "id": "pop_history",
       "name": "Population history",
       "categories": {
