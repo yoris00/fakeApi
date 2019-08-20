@@ -101,8 +101,8 @@
               "name": "Population trend"
             },
             {
-              "id": "popden",
-              "name": "Population density"
+              "id": "pop_history",
+              "name": "Population history"
             }
           ]
         },
