@@ -1,59 +1,6 @@
 {
   "indicators": [
     {
-      "description": "Descrizione popolazione Trend",
-      "id": "pop",
-      "name": "Population trend",
-      "categories": {
-        "domains": [
-          "01.01"
-        ],
-        "sdg": [
-          "01", "05"
-        ]
-      },
-      "contexts": [
-        "default",
-        "all"
-      ],
-      "datasets": [
-        {
-          "id": "luisa_pop_2015",
-          "name": "Luisa serie",
-          "description": ""
-        },
-        {
-          "id": "eurostat_pop_2015?sex=t&age=t",
-          "name": "Eurostat serie",
-          "description": ""
-        }
-      ]
-    },
-    {
-      "description": "Descrizione popolazione storica",
-      "id": "pop_history",
-      "name": "Population history",
-      "categories": {
-        "domains": [
-          "01.01"
-        ],
-        "sdg": [
-          "01", "05"
-        ]
-      },
-      "contexts": [
-        "default",
-        "all"
-      ],
-      "datasets": [
-        {
-          "id": "eurostat_pop_2015?sex=t&age=t",
-          "name": "",
-          "description": ""
-        }
-      ]
-    },
-    {
       "description": "",
       "id": "popbysex",
       "name": "Population by gender",
