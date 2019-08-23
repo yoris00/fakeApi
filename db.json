@@ -18,14 +18,16 @@
       ],
       "datasets": [
         {
-          "id": "EUROSTAT_demo_r_pjanaggr3_2016?nutslevel=0&sex=F&age=TOTAL",
-          "name": "Female",
-          "description": ""
+          "id": "EUROSTAT_demo_r_pjanind2_2016?nutslevel=0",
+          "name": "nuts0",
+          "description": "",
+          "levels": [0]
         },
         {
-          "id": "EUROSTAT_demo_r_pjanaggr3_2016?nutslevel=0&sex=M&age=TOTAL",
+          "id": "EUROSTAT_demo_r_pjanind3_2016?nutslevel=3",
           "name": "Male",
-          "description": ""
+          "description": "",
+          "levels": [3]
         }
       ]
     }
