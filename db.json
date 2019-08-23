@@ -44,22 +44,8 @@
           "name": "Demography",
           "children": [
             {
-              "id": "pop",
-              "name": "Population trend"
-            },
-            {
-              "id": "pop_history",
-              "name": "Population history"
-            }
-          ]
-        },
-        {
-          "id": "01-02",
-          "name": "Migration",
-          "children": [
-            {
-              "id": "poptest",
-              "name": "Population test"
+              "id": "popbysex",
+              "name": "Population by sex"
             }
           ]
         }
