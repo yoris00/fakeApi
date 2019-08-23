@@ -94,7 +94,7 @@
             },
             {
               "id": "AGE_DEP_byAgeClass",
-              "name": "Age Dependency ratio by Age class (old / young)",
+              "name": "Age Dependency ratio by Age class (old / young)"
             }
           ]
         }
