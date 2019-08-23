@@ -21,7 +21,7 @@
           "id": "EUROSTAT_demo_r_pjanind2_2016?INDIC_DE=DEPRATIO1",
           "name": "nuts0",
           "description": "",
-          "levels": [0, 1, 2, 3]
+          "levels": [0, 1, 2]
         },
         {
           "id": "EUROSTAT_demo_r_pjanind3_2016?INDIC_CE=DEPRATIO1",
