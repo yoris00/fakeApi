@@ -70,14 +70,14 @@
         "all"
       ],
       "datasets": [
-        { 
-          "id": "eurostat_pop_2015?sex=m&age=t",
-          "name": "Pop by Male",
+        {
+          "id": "EUROSTAT_demo_r_pjanaggr3_2016?nutslevel=0&sex=F&age=TOTAL",
+          "name": "Female",
           "description": ""
         },
-        { 
-          "id": "eurostat_pop_2015?sex=f&age=t",
-          "name": "Pop by Female",
+        {
+          "id": "EUROSTAT_demo_r_pjanaggr3_2016?nutslevel=0&sex=M&age=TOTAL",
+          "name": "Male",
           "description": ""
         }
       ]
