@@ -2,8 +2,8 @@
   "indicators": [
     {
       "description": "",
-      "id": "popbysex",
-      "name": "Population by gender",
+      "id": "AGE_DEP",
+      "name": "Age Dependency ratio",
       "categories": {
         "domains": [
           "01.01"
@@ -30,6 +30,49 @@
           "levels": [3]
         }
       ]
+    },
+    {
+      "description": "Age Dependency ratio by Age class (old / young)",
+      "id": "AGE_DEP_byAgeClass",
+      "name": "Age Dependency ratio by Age class (old / young)",
+      "categories": {
+        "domains": [
+          "01.01"
+        ],
+        "sdg": [
+          "01", "05"
+        ]
+      },
+      "contexts": [
+        "default",
+        "all"
+      ],
+      "datasets": [
+        {
+          "id": "EUROSTAT_demo_r_pjanind2_2016?INDIC_DE=YOUNGDEP1",
+          "name": "Young Age (<15) Dependency ratio",
+          "description": "",
+          "levels": [0, 1, 2]
+        },
+        {
+          "id": "EUROSTAT_demo_r_pjanind2_2016?INDIC_DE=OLDDEP1",
+          "name": "Old Age (over 65) Dependency ratio",
+          "description": "",
+          "levels": [0, 1, 2]
+        },
+        {
+          "id": "EUROSTAT_demo_r_pjanind3_2016?INDIC_CE=YOUNGDEP1",
+          "name": "Young Age (<15) Dependency ratio",
+          "description": "",
+          "levels": [3]
+        },
+        {
+          "id": "EUROSTAT_demo_r_pjanind3_2016?INDIC_CE=OLDDEP1",
+          "name": "Old Age (over 65) Dependency ratio",
+          "description": "",
+          "levels": [3]
+        }
+      ]
     }
   ],
   "indicatorsByDomain": [
@@ -46,8 +89,12 @@
           "name": "Demography",
           "children": [
             {
-              "id": "popbysex",
-              "name": "Population by sex"
+              "id": "AGE_DEP",
+              "name": "Age Dependency ratio"
+            },
+            {
+              "id": "AGE_DEP_byAgeClass",
+              "name": "Age Dependency ratio by Age class (old / young)",
             }
           ]
         }
