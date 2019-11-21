@@ -7,6 +7,10 @@
     {
       "NAME_HTML": "Novara",
       "NUTS_ID": "ITC15,IT516C1"
+    },
+    {
+      "NAME_HTML": "Aosta",
+      "NUTS_ID": "ITC2,ITC20"
     }
   ]
 }
