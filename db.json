@@ -1,120 +1,12 @@
 {
-  "indicators": [
+  "territories": [
     {
-      "description": "",
-      "id": "AGE_DEP",
-      "name": "Age Dependency ratio",
-      "categories": {
-        "domains": [
-          "01.01"
-        ],
-        "sdg": [
-          "01", "05"
-        ]
-      },
-      "contexts": [
-        "default",
-        "all"
-      ],
-      "datasets": [
-        {
-          "id": "EUROSTAT_demo_r_pjanind2_2016?INDIC_DE=DEPRATIO1",
-          "name": "nuts0",
-          "description": "",
-          "levels": [0, 1, 2]
-        },
-        {
-          "id": "EUROSTAT_demo_r_pjanind3_2016?INDIC_CE=DEPRATIO1",
-          "name": "Male",
-          "description": "",
-          "levels": [3]
-        }
-      ]
+      "NAME_HTML": "Varese",
+      "NUTS_ID": "ITC41,IT043C1"
     },
     {
-      "description": "Age Dependency ratio by Age class (old / young)",
-      "id": "AGE_DEP_byAgeClass",
-      "name": "Age Dependency ratio by Age class (old / young)",
-      "categories": {
-        "domains": [
-          "01.01"
-        ],
-        "sdg": [
-          "01", "05"
-        ]
-      },
-      "contexts": [
-        "default",
-        "all"
-      ],
-      "datasets": [
-        {
-          "id": "EUROSTAT_demo_r_pjanind2_2016?INDIC_DE=YOUNGDEP1",
-          "name": "Young Age (<15) Dependency ratio",
-          "description": "",
-          "levels": [0, 1, 2]
-        },
-        {
-          "id": "EUROSTAT_demo_r_pjanind2_2016?INDIC_DE=OLDDEP1",
-          "name": "Old Age (over 65) Dependency ratio",
-          "description": "",
-          "levels": [0, 1, 2]
-        },
-        {
-          "id": "EUROSTAT_demo_r_pjanind3_2016?INDIC_CE=YOUNGDEP1",
-          "name": "Young Age (<15) Dependency ratio",
-          "description": "",
-          "levels": [3]
-        },
-        {
-          "id": "EUROSTAT_demo_r_pjanind3_2016?INDIC_CE=OLDDEP1",
-          "name": "Old Age (over 65) Dependency ratio",
-          "description": "",
-          "levels": [3]
-        }
-      ]
-    }
-  ],
-  "indicatorsByDomain": [
-    {
-      "id": "01",
-      "name": "Population",
-      "description": [
-        "Corto",
-        "Lungo"
-      ],
-      "children": [
-        {
-          "id": "01.01",
-          "name": "Demography",
-          "children": [
-            {
-              "id": "AGE_DEP",
-              "name": "Age Dependency ratio"
-            },
-            {
-              "id": "AGE_DEP_byAgeClass",
-              "name": "Age Dependency ratio by Age class (old / young)"
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "domains": [
-    {
-      "id": "01",
-      "description": [
-        "Corto",
-        "Lungo"
-      ],
-      "name": "Population",
-      "children": [
-        {
-          "id": "01.01",
-          "name": "Demography"
-        }
-      ]
+      "NAME_HTML": "Novara",
+      "NUTS_ID": "ITC41,IT043C1"
     }
   ]
 }
