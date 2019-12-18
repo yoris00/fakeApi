@@ -13,4 +13,801 @@
       "NUTS_ID": "ITC2,ITC20"
     }
   ]
+},
+{
+  "byDomains": {
+    data": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "id": "TOT_POP",
+                            "internalCode": "001.001.001",
+                            "name": "Total Population"
+                        },
+                        {
+                            "id": "POP_LUISA_PROJ",
+                            "internalCode": "001.001.002",
+                            "name": "Total Population - projections"
+                        },
+                        {
+                            "id": "URBPOP",
+                            "internalCode": "001.001.003",
+                            "name": "Urban population"
+                        },
+                        {
+                            "id": "TOT_POP_byAge",
+                            "internalCode": "001.001.004",
+                            "name": "Total Population by age"
+                        },
+                        {
+                            "id": "TOT_POP_bySex",
+                            "internalCode": "001.001.005",
+                            "name": "Total Population by sex"
+                        },
+                        {
+                            "id": "POP_DENS",
+                            "internalCode": "001.001.006",
+                            "name": "Population Density"
+                        },
+                        {
+                            "id": "POP_WD",
+                            "internalCode": "001.001.007",
+                            "name": "Population Weighted Density"
+                        },
+                        {
+                            "id": "MED_AGE",
+                            "internalCode": "001.001.008",
+                            "name": "Median Population Age"
+                        },
+                        {
+                            "id": "MED_AGE_BySex",
+                            "internalCode": "001.001.009",
+                            "name": "Median Population Age by Sex"
+                        },
+                        {
+                            "id": "WOMEN_100MEN",
+                            "internalCode": "001.001.010",
+                            "name": "Women per 100 Men"
+                        },
+                        {
+                            "id": "POP_GROW_rate",
+                            "internalCode": "001.001.011",
+                            "name": "Population Change"
+                        },
+                        {
+                            "id": "NAT_GROW_rate",
+                            "internalCode": "001.001.012",
+                            "name": "Crude rate of Natural Change"
+                        },
+                        {
+                            "id": "BIRTH_rate",
+                            "internalCode": "001.001.013",
+                            "name": "Crude birth rate (per 1000 inhabitants)"
+                        },
+                        {
+                            "id": "DEATH_rate",
+                            "internalCode": "001.001.014",
+                            "name": "Crude death rate (per 1000 inhabitants)"
+                        }
+                    ],
+                    "id": "001.001",
+                    "internalCode": "001.001",
+                    "name": "Demography"
+                },
+                {
+                    "children": [
+                        {
+                            "id": "POP_byCITIZ_PC",
+                            "internalCode": "001.002.001",
+                            "name": "Share of Population by Citizenship"
+                        },
+                        {
+                            "id": "POP_byPBirth_PC",
+                            "internalCode": "001.002.002",
+                            "name": "Population by Place of Birth"
+                        },
+                        {
+                            "id": "NET_MIGR_rate",
+                            "internalCode": "001.002.003",
+                            "name": "Crude rate of Net Migration"
+                        },
+                        {
+                            "id": "FOR_POP",
+                            "internalCode": "001.002.004",
+                            "name": "Foreign Population over 15 years old"
+                        },
+                        {
+                            "id": "FOR_POP_byOrigin",
+                            "internalCode": "001.002.005",
+                            "name": "Foreign Population >15 - EU28 vs Extra-EU"
+                        }
+                    ],
+                    "id": "001.002",
+                    "internalCode": "001.002",
+                    "name": "Migration"
+                }
+            ],
+            "id": "001",
+            "internalCode": "001",
+            "name": "Population dynamics"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "id": "GDP_TOT",
+                            "internalCode": "002.001.001",
+                            "name": "Total GDP at current market prices"
+                        },
+                        {
+                            "id": "GDP_HAB",
+                            "internalCode": "002.001.002",
+                            "name": "GDP/inhabitant at current market prices"
+                        },
+                        {
+                            "id": "GDP_HAB_percEU",
+                            "internalCode": "002.001.003",
+                            "name": "GDP/inhabitant in % of EU average"
+                        },
+                        {
+                            "id": "GDP_TOT_PPS",
+                            "internalCode": "002.001.004",
+                            "name": "Total GDP in PPS"
+                        },
+                        {
+                            "id": "GDP_HAB_PPS",
+                            "internalCode": "002.001.005",
+                            "name": "GDP/inhabitant in PPS"
+                        },
+                        {
+                            "id": "GDP_HAB_percEU_PPS",
+                            "internalCode": "002.001.006",
+                            "name": "GDP per inhabitant in % of EU average (PPS)"
+                        },
+                        {
+                            "id": "GVA_CURPRICES",
+                            "internalCode": "002.001.007",
+                            "name": "GVA at current prices"
+                        }
+                    ],
+                    "id": "002.001",
+                    "internalCode": "002.001",
+                    "name": "GDP"
+                },
+                {
+                    "children": [
+                        {
+                            "id": "RCI_INFRA",
+                            "internalCode": "002.002.001",
+                            "name": "Infrastructure"
+                        },
+                        {
+                            "id": "ME_STAB",
+                            "internalCode": "002.002.002",
+                            "name": "MacroEconomic Stability"
+                        },
+                        {
+                            "id": "RCI",
+                            "internalCode": "002.002.003",
+                            "name": "European Regional Competitiveness Index"
+                        }
+                    ],
+                    "id": "002.002",
+                    "internalCode": "002.002",
+                    "name": "Competitiveness"
+                },
+                {
+                    "children": [
+                        {
+                            "id": "HOTEL_BEDS",
+                            "internalCode": "002.003.001",
+                            "name": "Available beds in accommodation establishments per 1000 residents"
+                        },
+                        {
+                            "id": "TOU_NIGHTS",
+                            "internalCode": "002.003.002",
+                            "name": "Nights spent in tourist accommodation establishments"
+                        },
+                        {
+                            "id": "NIGHTS_HOTEL_perPOP",
+                            "internalCode": "002.003.003",
+                            "name": "Total nights spent in tourist accommodation establishments per resident population"
+                        },
+                        {
+                            "id": "MUSEUM_VISITS",
+                            "internalCode": "002.003.004",
+                            "name": "Number of museum visitors (per year)"
+                        },
+                        {
+                            "id": "CINEMA_SEATS",
+                            "internalCode": "002.003.005",
+                            "name": "Number of cinema seats per 1000 residents"
+                        },
+                        {
+                            "id": "CINEMA_ATT_YEAR",
+                            "internalCode": "002.003.006",
+                            "name": "Cinema attendance (per year)"
+                        }
+                    ],
+                    "id": "002.003",
+                    "internalCode": "002.003",
+                    "name": "Tourism and Leisure"
+                }
+            ],
+            "id": "002",
+            "internalCode": "002",
+            "name": "Economy"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "id": "ACTIV_rate_bySex",
+                            "internalCode": "003.001.001",
+                            "name": "Activity Rate by Sex"
+                        },
+                        {
+                            "id": "ACTIV_rate",
+                            "internalCode": "003.001.002",
+                            "name": "Activity rate"
+                        },
+                        {
+                            "id": "TOT_EMP_15-64",
+                            "internalCode": "003.001.003",
+                            "name": "Total Employment (15-64)"
+                        },
+                        {
+                            "id": "TOT_JOBS",
+                            "internalCode": "003.001.004",
+                            "name": "Total Employment / Jobs (work place based)"
+                        },
+                        {
+                            "id": "JOBS_by_Sector",
+                            "internalCode": "003.001.005",
+                            "name": "Employment by Sector (nr. of Jobs)"
+                        },
+                        {
+                            "id": "FOR_EMP",
+                            "internalCode": "003.001.006",
+                            "name": "Employment - Nationals and Foreigners (15-64)"
+                        },
+                        {
+                            "id": "FOR_EMP_ByOrigin",
+                            "internalCode": "003.001.007",
+                            "name": "Employment of EU and non-EU Foreigners (15-64)"
+                        },
+                        {
+                            "id": "TOT_EMP_15-64PC",
+                            "internalCode": "003.001.008",
+                            "name": "Employment rate (15-64 years)"
+                        }
+                    ],
+                    "id": "003.001",
+                    "internalCode": "003.001",
+                    "name": "Employment"
+                },
+                {
+                    "children": [
+                        {
+                            "id": "TOT_UNE_15-64",
+                            "internalCode": "003.002.001",
+                            "name": "Total Unemployment (15-64)"
+                        },
+                        {
+                            "id": "FOR_UNE",
+                            "internalCode": "003.002.002",
+                            "name": "Unemployment of Nationals and Foreigners (15-64)"
+                        },
+                        {
+                            "id": "FOR_UNE_ByOrigin",
+                            "internalCode": "003.002.003",
+                            "name": "Unemployment of foreigners non-EU / EU28 (15-64)"
+                        },
+                        {
+                            "id": "UNE_rate",
+                            "internalCode": "003.002.004",
+                            "name": "Unemployment rate"
+                        },
+                        {
+                            "id": "UNE_rate_BySex",
+                            "internalCode": "003.002.005",
+                            "name": "Unemployment rate by sex"
+                        },
+                        {
+                            "id": "NEET_15-24",
+                            "internalCode": "003.002.006",
+                            "name": "NEET 15-24"
+                        }
+                    ],
+                    "id": "003.002",
+                    "internalCode": "003.002",
+                    "name": "Unemployment"
+                }
+            ],
+            "id": "003",
+            "internalCode": "003",
+            "name": "Labour market"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "id": "WEDU1549",
+                            "internalCode": "004.001.001",
+                            "name": "Education in women (15-49 years old)"
+                        },
+                        {
+                            "id": "EDU_SEC",
+                            "internalCode": "004.001.002",
+                            "name": "Secondary Educational Attainment (25-64)"
+                        },
+                        {
+                            "id": "EDU_SEC_BySex",
+                            "internalCode": "004.001.003",
+                            "name": "Secondary Educational Attainment (25-64) by Sex"
+                        },
+                        {
+                            "id": "EDU_LEA",
+                            "internalCode": "004.001.004",
+                            "name": "Early Leavers from Education (18-24)"
+                        },
+                        {
+                            "id": "EDU_TER",
+                            "internalCode": "004.001.005",
+                            "name": "Tertiary Educational Attainment (25-64)"
+                        },
+                        {
+                            "id": "EDU_TER_BySex",
+                            "internalCode": "004.001.006",
+                            "name": "Tertiary Educational Attainment (25-64) by Sex"
+                        },
+                        {
+                            "id": "EDU_LEA_BySex",
+                            "internalCode": "004.001.007",
+                            "name": "Early Leavers from Education (18-24) by Sex"
+                        },
+                        {
+                            "id": "EDU_TER_30-34",
+                            "internalCode": "004.001.008",
+                            "name": "Tertiary Educational Attainment (30-34)"
+                        },
+                        {
+                            "id": "EDU_TER_30-34_BySex",
+                            "internalCode": "004.001.009",
+                            "name": "Tertiary Educational Attainment (30-34) by Sex"
+                        }
+                    ],
+                    "id": "004.001",
+                    "internalCode": "004.001",
+                    "name": "Education"
+                }
+            ],
+            "id": "004",
+            "internalCode": "004",
+            "name": "Education"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "id": "RIS",
+                            "internalCode": "005.001.001",
+                            "name": "Regional Innovation Scoreboard"
+                        },
+                        {
+                            "id": "RnD_EXP",
+                            "internalCode": "005.001.002",
+                            "name": "Intramural R&D Expenditure"
+                        },
+                        {
+                            "id": "RnD_EXP_bySector",
+                            "internalCode": "005.001.003",
+                            "name": "Intramural R&D Expenditure by Sector"
+                        }
+                    ],
+                    "id": "005.001",
+                    "internalCode": "005.001",
+                    "name": "Research & Innovation"
+                }
+            ],
+            "id": "005",
+            "internalCode": "005",
+            "name": "Research & Innovation"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "id": "AGE_DEP",
+                            "internalCode": "006.001.001",
+                            "name": "Age Dependency ratio"
+                        },
+                        {
+                            "id": "AGE_DEP_byAgeClass",
+                            "internalCode": "006.001.002",
+                            "name": "Age Dependency ratio by Age class (old / young)"
+                        },
+                        {
+                            "id": "HOUSE_OWNERS_rate",
+                            "internalCode": "006.001.003",
+                            "name": "Proportion of households living in owned dwellings"
+                        },
+                        {
+                            "id": "1PERSON-HOUSE_rate",
+                            "internalCode": "006.001.004",
+                            "name": "Proportion of households that are 1-person households"
+                        },
+                        {
+                            "id": "LONE_PEN_HOUSE_rate",
+                            "internalCode": "006.001.005",
+                            "name": "% of Lone-pensioner Households"
+                        },
+                        {
+                            "id": "LONE_PARENT_HOUSE_rate",
+                            "internalCode": "006.001.006",
+                            "name": "Proportion of households that are lone-parent households"
+                        },
+                        {
+                            "id": "POV-EXCL",
+                            "internalCode": "006.001.007",
+                            "name": "Risk of Poverty or Social Exclusion"
+                        },
+                        {
+                            "id": "POV",
+                            "internalCode": "006.001.008",
+                            "name": "People at Risk of Poverty"
+                        },
+                        {
+                            "id": "SEV_DEP",
+                            "internalCode": "006.001.009",
+                            "name": "Severe Material Deprivation"
+                        },
+                        {
+                            "id": "LOW_WORK_INT_rate",
+                            "internalCode": "006.001.010",
+                            "name": "Share of persons living in households with very low work intensity"
+                        }
+                    ],
+                    "id": "006.001",
+                    "internalCode": "006.001",
+                    "name": "Social Issues"
+                },
+                {
+                    "children": [
+                        {
+                            "id": "BROAD_ACC",
+                            "internalCode": "006.002.001",
+                            "name": "Households with Broadband Access"
+                        },
+                        {
+                            "id": "IND_COMP",
+                            "internalCode": "006.002.002",
+                            "name": "Individuals who have never used a computer"
+                        }
+                    ],
+                    "id": "006.002",
+                    "internalCode": "006.002",
+                    "name": "Social Progress"
+                }
+            ],
+            "id": "006",
+            "internalCode": "006",
+            "name": "Social Issues"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "id": "LUISA_DAI",
+                            "internalCode": "008.001.001",
+                            "name": "Daily Accessibility"
+                        },
+                        {
+                            "id": "LUISA_NEI",
+                            "internalCode": "008.001.002",
+                            "name": "Network Efficiency"
+                        },
+                        {
+                            "id": "LUISA_AI",
+                            "internalCode": "008.001.003",
+                            "name": "Potential Accessibility"
+                        },
+                        {
+                            "id": "LUISA_TPI",
+                            "internalCode": "008.001.004",
+                            "name": "Transport Performance"
+                        },
+                        {
+                            "id": "TT2CC",
+                            "internalCode": "008.001.005",
+                            "name": "Travel time to country capital"
+                        }
+                    ],
+                    "id": "008.001",
+                    "internalCode": "008.001",
+                    "name": "Accessibility"
+                },
+                {
+                    "children": [
+                        {
+                            "id": "MEAN_toWORK",
+                            "internalCode": "008.002.001",
+                            "name": "Share of transport means to work"
+                        },
+                        {
+                            "id": "CARS_pth",
+                            "internalCode": "008.002.002",
+                            "name": "Cars per thousand inhabitants"
+                        },
+                        {
+                            "id": "CAR",
+                            "internalCode": "008.002.003",
+                            "name": "Passenger Cars"
+                        },
+                        {
+                            "id": "MOTO",
+                            "internalCode": "008.002.004",
+                            "name": "Motorbikes"
+                        },
+                        {
+                            "id": "BUS",
+                            "internalCode": "008.002.005",
+                            "name": "Motor Coaches and Buses"
+                        },
+                        {
+                            "id": "UTL",
+                            "internalCode": "008.002.006",
+                            "name": "Utility Vehicles"
+                        },
+                        {
+                            "id": "CYCL_NET",
+                            "internalCode": "008.002.007",
+                            "name": "Length of bicycle network (dedicated cycle paths and lanes)"
+                        }
+                    ],
+                    "id": "008.002",
+                    "internalCode": "008.002",
+                    "name": "Transport"
+                }
+            ],
+            "id": "008",
+            "internalCode": "008",
+            "name": "Transport & Accessibility"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "id": "LAND_USE",
+                            "internalCode": "009.001.001",
+                            "name": "Land Use"
+                        },
+                        {
+                            "id": "BUA",
+                            "internalCode": "009.001.002",
+                            "name": "Built-up Area"
+                        },
+                        {
+                            "id": "BUAPC",
+                            "internalCode": "009.001.003",
+                            "name": "Built-up Area pro-capite"
+                        },
+                        {
+                            "id": "PM25_EMIS",
+                            "internalCode": "009.001.004",
+                            "name": "PM2.5 Emissions"
+                        },
+                        {
+                            "id": "VOC_EMIS",
+                            "internalCode": "009.001.005",
+                            "name": "Emissions of volatile organic compound"
+                        },
+                        {
+                            "id": "SO2_EMIS",
+                            "internalCode": "009.001.006",
+                            "name": "SO2 Emissions"
+                        },
+                        {
+                            "id": "NH3_EMIS",
+                            "internalCode": "009.001.007",
+                            "name": "NH3 Emissions"
+                        },
+                        {
+                            "id": "CO2_EMIS",
+                            "internalCode": "009.001.008",
+                            "name": "CO2 Emissions"
+                        },
+                        {
+                            "id": "CO_EMIS",
+                            "internalCode": "009.001.009",
+                            "name": "CO Emissions"
+                        },
+                        {
+                            "id": "NOx_EMIS",
+                            "internalCode": "009.001.010",
+                            "name": "NOx Emissions"
+                        },
+                        {
+                            "id": "PM10_EMIS",
+                            "internalCode": "009.001.011",
+                            "name": "PM10 Emissions"
+                        },
+                        {
+                            "id": "GRAT",
+                            "internalCode": "009.001.012",
+                            "name": "Total area of greenness"
+                        },
+                        {
+                            "id": "GRALMH",
+                            "internalCode": "009.001.013",
+                            "name": "Total area greenness by vegetation density"
+                        },
+                        {
+                            "id": "LUISA_ABAND",
+                            "internalCode": "009.001.014",
+                            "name": "Land Abandonment"
+                        }
+                    ],
+                    "id": "009.001",
+                    "internalCode": "009.001",
+                    "name": "Environment"
+                },
+                {
+                    "children": [
+                        {
+                            "id": "CLI_HDD",
+                            "internalCode": "009.002.001",
+                            "name": "Heating Degree Days"
+                        },
+                        {
+                            "id": "CLI_CDD",
+                            "internalCode": "009.002.002",
+                            "name": "Cooling Degree Days"
+                        }
+                    ],
+                    "id": "009.002",
+                    "internalCode": "009.002",
+                    "name": "Climate"
+                }
+            ],
+            "id": "009",
+            "internalCode": "009",
+            "name": "Environment & Climate"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "id": "QUAL_INST",
+                            "internalCode": "010.001.001",
+                            "name": "Quality of Institutions"
+                        }
+                    ],
+                    "id": "010.001",
+                    "internalCode": "010.001",
+                    "name": "Governance"
+                }
+            ],
+            "id": "010",
+            "internalCode": "010",
+            "name": "Governance"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "id": "DEATHB1M",
+                            "internalCode": "011.001.001",
+                            "name": "Death probability within 1 month of life"
+                        },
+                        {
+                            "id": "DEATHB5Y",
+                            "internalCode": "011.001.002",
+                            "name": "Mean probability of death before 5 years old"
+                        },
+                        {
+                            "id": "STUNTB5Y",
+                            "internalCode": "011.001.003",
+                            "name": "Stunting prevalence below 5 years old"
+                        },
+                        {
+                            "id": "INFANT_MORT_rate",
+                            "internalCode": "011.001.004",
+                            "name": "Infant Mortility rate"
+                        }
+                    ],
+                    "id": "011.001",
+                    "internalCode": "011.001",
+                    "name": "Health"
+                }
+            ],
+            "id": "011",
+            "internalCode": "011",
+            "name": "Health"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "id": "MURDERS",
+                            "internalCode": "012.001.001",
+                            "name": "Number of murders and violent deaths"
+                        }
+                    ],
+                    "id": "012.001",
+                    "internalCode": "012.001",
+                    "name": "Security"
+                },
+                {
+                    "children": [
+                        {
+                            "id": "ROAD_KIL_10KHAB",
+                            "internalCode": "012.002.001",
+                            "name": "People killed in road accidents per 10.000 inhabitants"
+                        },
+                        {
+                            "id": "ROAD_KIL_pmln",
+                            "internalCode": "012.002.002",
+                            "name": "Killed in Road Accidents (per million inhabitants)"
+                        },
+                        {
+                            "id": "ROAD_INJ_pml",
+                            "internalCode": "012.002.003",
+                            "name": "Injured in Road Accidents (per million inhabitants)"
+                        },
+                        {
+                            "id": "ROAD_KIL",
+                            "internalCode": "012.002.004",
+                            "name": "Killed in Road Accidents"
+                        },
+                        {
+                            "id": "ROAD_INJ",
+                            "internalCode": "012.002.005",
+                            "name": "Injured in Road Accidents"
+                        }
+                    ],
+                    "id": "012.002",
+                    "internalCode": "012.002",
+                    "name": "Safety"
+                }
+            ],
+            "id": "012",
+            "internalCode": "012",
+            "name": "Security & Safety"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "id": "IMPRHOUSE",
+                            "internalCode": "013.001.001",
+                            "name": "Mean prevalence of improved housing"
+                        }
+                    ],
+                    "id": "013.001",
+                    "internalCode": "013.001",
+                    "name": "Housing"
+                }
+            ],
+            "id": "013",
+            "internalCode": "013",
+            "name": "Urban development"
+        }
+    ],
+    "version": "v2"
+  }
 }
+
