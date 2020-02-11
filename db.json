@@ -2,15 +2,11 @@
   "territories": [
     {
       "NAME_HTML": "Varese",
-      "NUTS_ID": "ITC41,IT043C1"
+      "NUTS_CODE": "ITC41"
     },
     {
-      "NAME_HTML": "Novara",
-      "NUTS_ID": "ITC15,IT516C1"
-    },
-    {
-      "NAME_HTML": "Aosta",
-      "NUTS_ID": "ITC2,ITC20"
+      "NAME_HTML": "Varese",
+      "NUTS_CODE": "IT043C1"
     }
   ]
 }
