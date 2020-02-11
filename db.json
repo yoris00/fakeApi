@@ -2,11 +2,13 @@
   "territories": [
     {
       "NAME_HTML": "Varese",
-      "NUTS_CODE": "ITC41"
+      "NUTS_CODE": "ITC41",
+      "NUTS_LEVL": 2
     },
     {
       "NAME_HTML": "Varese",
-      "NUTS_CODE": "IT043C1"
+      "NUTS_CODE": "IT043C1",
+      "NUTS_LEVL": 3
     }
   ]
 }
