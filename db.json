@@ -1,4 +1,16 @@
 {
-  "territories": {"features":[{"feature":{"properties":{"NAME_HTML":"Varese","NUTS_ID":"IT043C1"}},"levl":"6"},{"feature":{"properties":{"NAME_HTML":"Varese","NUTS_ID":"IT043C1"}},"levl":"6"},{"feature":{"properties":{"NAME_HTML":"Varese","NUTS_ID":"IT043L1"}},"levl":"5"},{"feature":{"properties":{"NAME_HTML":"Varese","NUTS_ID":"IT043L2"}},"levl":"5"},{"feature":{"properties":{"NAME_HTML":"Varese","NUTS_ID":"ITA10L2521"}},"levl":"10"},{"feature":{"properties":{"NAME_HTML":"Varese","NUTS_ID":"ITC41"}},"levl":"3"},{"feature":{"properties":{"NAME_HTML":"Varese","NUTS_ID":"ITC41"}},"levl":"3"}],"type":"FeatureCollection"}
+  "territories": {
+    "features":[
+      {
+        "feature":{
+          "properties":{
+            "NAME_HTML":"Varese",
+            "NUTS_ID":"IT043C1"
+          }
+        },
+        "levl":"6"
+      },
+      {
+        "feature":{"properties":{"NAME_HTML":"Varese","NUTS_ID":"IT043C1"}},"levl":"6"},{"feature":{"properties":{"NAME_HTML":"Varese","NUTS_ID":"IT043L1"}},"levl":"5"},{"feature":{"properties":{"NAME_HTML":"Varese","NUTS_ID":"IT043L2"}},"levl":"5"},{"feature":{"properties":{"NAME_HTML":"Varese","NUTS_ID":"ITA10L2521"}},"levl":"10"},{"feature":{"properties":{"NAME_HTML":"Varese","NUTS_ID":"ITC41"}},"levl":"3"},{"feature":{"properties":{"NAME_HTML":"Varese","NUTS_ID":"ITC41"}},"levl":"3"}],"type":"FeatureCollection"}
 }
 
